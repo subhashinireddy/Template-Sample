@@ -1,0 +1,37 @@
+@import './variable.scss';
+
+.card {
+   display: flex;
+   padding: 80px;
+
+   .title {
+      max-width: 50%;
+
+      &__description{
+         font-size: 1.2rem;
+      }
+   }
+
+ .third-btn{
+   margin: 20px;
+   padding: 20px;
+   border-radius: 5px;
+   font-size: 1rem;
+   background-color:$background-color2;
+ }  
+
+ .forth-btn{
+   padding: 20px;
+   border:none;
+   font-size: 1rem;
+   background-color: $background-color7;
+ }
+
+   .block {
+      width: 40%;
+      height: 40vh;
+      border: 2px solid $color5;
+      background-color: $background-color5;
+      margin: 30px;
+   }
+}

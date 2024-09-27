@@ -1,0 +1,41 @@
+@import './variable.scss';
+
+.cards {
+
+    &-sets {
+        margin: 0px 60px;
+    }
+
+    &-container {
+        &__title{
+            color:$color8;
+        }
+        &__para {
+            max-width: 60%;
+            font-size: 1.2rem;
+        }
+    }
+
+
+    &-blocks {
+        display: flex;
+    }
+
+    &-icon {
+        background-color: $background-color8;
+        margin: 20px;
+        padding: 60px;
+        &__para {
+          
+            font-size: 1.2rem;
+        
+    }
+    }
+
+}
+
+.btn {
+    padding: 15px;
+    border: 3px solid $background-color1;
+    border-radius: 10px;
+}

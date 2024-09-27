@@ -1,0 +1,112 @@
+@import './variable.scss';
+
+.text {
+    &-para {
+        display: flex;
+        flex-direction: column;
+        padding: 80px;
+
+        &__title {
+            color: $color8; // Default color
+            font-size: 2.5em;
+            font-family: $font-family2;
+
+          
+            .color-5 &,
+            .color-6 &,
+            .color-7 &,
+            .color-8 & {
+                color: $color2;
+            }
+        }
+
+        &__text {
+            margin: 0;
+            font-size: 1.3rem;
+            margin-bottom: 50px;
+            max-width: 50%;
+        }
+    }
+
+    &-primary {
+        display: flex;
+    }
+
+    &-icons {
+        margin-right: 50px;
+        padding: 20px;
+        word-break: normal;
+
+        &__description {
+            word-break: normal;
+            max-width: 70%;
+            font-size: 1.2rem;
+        }
+
+        &.icon-color-1 {
+            background-color: $background-color8;
+        }
+
+        &.icon-color-4 {
+            background-color: $background-color9;
+        }
+
+        &.icon-color-2,
+        &.icon-color-3 {
+            background-color: $background-color7;
+        }
+
+        &.icon-color-5 {
+            background-color: $background-color3;
+            color: $color6;
+        }
+
+        &.icon-color-6,
+        &.icon-color-7 {
+            background-color: $background-color1;
+            color: $color6;
+        }
+
+        &.icon-color-8 {
+            background-color: $background-color3;
+            color: $color6;
+        }
+    }
+}
+
+.color-1,
+.color-2 {
+    background-color: $background-color7;
+}
+
+.color-3,
+.color-4 {
+    background-color: $background-color8;
+}
+
+.color-5,
+.color-6 {
+    background-color: $background-color1;
+    color: $color6;
+}
+
+.color-7,
+.color-8 {
+    background-color: $background-color3;
+    color: $color6;
+}
+
+.icons__btn {
+    background-color: $background-color2;
+    padding: 15px;
+    border-radius: 5px;
+    border: $color4;
+}
+
+.icons__button {
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 3px solid $color9;
+    background-color: $background-color7;
+}

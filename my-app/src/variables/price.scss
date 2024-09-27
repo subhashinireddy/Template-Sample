@@ -1,0 +1,26 @@
+@import './variable.scss';
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+
+    &-price {
+        border: 1px solid $color5;
+        padding: 50px;
+        margin-top: -50px;
+        background-color: $background-color7;
+        width: 15%;
+
+    }
+
+    &-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+&__text{
+    font-size: 1.5rem;
+    color:$color8 ;
+}
+    }
+}
+

@@ -1,0 +1,33 @@
+@import './variable.scss';
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-family;
+
+    &-navbar {
+        display: flex;
+        align-items: center;
+
+
+        &__links {
+            text-decoration: none;
+            padding: 20px;
+            color: $color1;
+        }
+    }
+
+    &-details {
+        &__phone {
+            color: $color3;
+        }
+    }
+}
+
+.contact_btn {
+    margin: 20px;
+    padding: 10px;
+    background-color: $background-color2;
+    border-radius: 5px;
+}
