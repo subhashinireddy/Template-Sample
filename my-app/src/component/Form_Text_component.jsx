@@ -18,7 +18,7 @@ const Form_Text_component = () => {
                 <div className='cards-blocks'>
                     {[...Array(3)].map((_, index) => (
                         <div key={index} className='cards-icon'>
-                            <i className="fa-solid fa-book"></i>
+                            <i className="fa-solid fa-book fa-2x"></i>
                             <h3 className='cards-icon__text'>Text Components</h3>
                             <p className='cards-icon__para'>Body XSmall - Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Pellentesque viverra arcu

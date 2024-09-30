@@ -19,7 +19,7 @@ const Main_text_component = ({ colorClass, iconColorClass, hasBackground }) => {
                 <div className='text-primary'> 
                     {[...Array(3)].map((_, index) => (
                         <div key={index} className={`text-icons ${iconColorClass}`}>
-                            <i className="fa-solid fa-book"></i>
+                            <i className="fa-solid fa-book fa-2x"></i>
                             <h3 className='text-icons__text'>Text Components</h3>
                             <p className='text-icons__description'>Body XSmall - Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Pellentesque viverra arcu
@@ -45,7 +45,7 @@ const MainComponent = () => {
             {[...Array(themeCount)].map((_, index) => {
                 const colorClass = `color-${index + 1}`;
                 const iconColorClass = `icon-color-${index + 1}`;
-                const hasBackground = index + 1 === 8; // Example condition, change as needed
+                const hasBackground = index + 1 === 8; 
                 return (
                     <Main_text_component
                         key={index}
